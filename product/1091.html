@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no, viewport-fit=cover"
+    />
+    <title>精品蒜头-有优品</title>
+    <link type="text/css" rel="stylesheet" href="../css/product.css" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../css/sangar-slider/sangar-slider.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../css/sangar-slider/default-skin.css"
+    />
+    <script src="../js/jquery-3.4.0.min.js"></script>
+    <script src="../js/jquery.touchSwipe.min.js"></script>
+    <script src="../js/imagesloaded.min.js"></script>
+    <script src="../js/sangarSlider.js"></script>
+    <script>
+      $(function($) {
+        $(".sangar-example").sangarSlider({
+          themeClass: "default",
+          disableLoading: true,
+          background:"white"
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="fixed-top">
+      <div class="flex-x">
+        <a><span>商品</span></a>
+        <a><span>详情</span></a>
+      </div>
+    </div>
+    <div class="sangar-example">
+      <div class="sangar-content">
+        <img src="./1091/01.jpg" />
+      </div>
+      <div class="sangar-content">
+        <img src="./1091/02.jpg" />
+      </div>
+      <div class="sangar-content">
+        <img src="./1091/03.jpg" />
+      </div>
+    </div>
+  </body>
+</html>
