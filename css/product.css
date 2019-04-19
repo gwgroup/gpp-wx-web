@@ -17,7 +17,9 @@ html {
 
 body {
   font-size: 12px;
-  margin: 36px 0px 0px 0px;
+  margin: 0px 0px 48px 0px;
+  background-color: #e8e8eb;
+  overflow-x: hidden;
 }
 
 .fixed-top {
@@ -29,13 +31,58 @@ body {
   background: #ffffff;
   box-shadow: 0px 0px 4px 0px #e6e2e2;
   z-index: 3;
+  display: none;
 }
 
-.flex-x{
-  display:flex;
+.flex-x {
+  display: flex;
 }
-.flex-x > a{
+
+.flex-x>* {
   flex: 1;
-  line-height: 36px;
+  line-height: 48px;
   text-align: center;
+}
+
+.product-base {
+  margin: 0;
+  font-size: 12px;
+  background-color: #ffffff;
+}
+
+.detail-images img {
+  width: 100%;
+}
+
+.bottom-bar {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 48px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px 0px #e6e2e2;
+  z-index: 3;
+}
+
+.product-base {
+  padding: 12px;
+}
+
+.product-desc {
+  color: #e4393c;
+}
+
+.title-bar h1 {
+  font-size: 16px;
+}
+
+.product-price {
+  font-size: 20px;
+  color: #ef3535;
+}
+
+.product-price .price {
+  font-style: initial;
+  font-size: 36px;
 }
